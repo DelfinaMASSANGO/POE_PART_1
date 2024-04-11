@@ -16,9 +16,9 @@ namespace POE_PART_1
         {
             Console.Write("Enter the number of ingredients to be used: ");
             int numIngredients = int.Parse(Console.ReadLine());
-            ingredients = new Ingredient[numIngredients];
+            ingredients = new Ingredient[numIngredients]; // This actuyally Initializes the ingredients array i added on line 12
             Console.WriteLine();
-            for (int i = 0; i < numIngredients; i++) ; 
+            for (int i = 0; i < numIngredients; i++) ; // this is a loop to input details for each ingredient 
             {
                 Console.WriteLine($"Enter details for ingredient {i + 1}:");
                 Console.Write("Name of the ingredient: ");
