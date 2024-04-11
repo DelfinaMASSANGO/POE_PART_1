@@ -39,7 +39,7 @@ namespace POE_PART_1
 
             for (int i = 0; i < numSteps; i++)
             {
-                Console.Write($"Enter step description {i + 1}: ");
+                Console.Write($"Enter step description {i + 1}: "); //this will promt the user of my program to enyer a step description 
                 string description = Console.ReadLine();
                 steps[i] = new Step { Description = description };
             }
@@ -47,8 +47,9 @@ namespace POE_PART_1
             Console.WriteLine("Congatulations!! Your recipe has been created successfully.");// this is the message the user will get after adding ingredients and steps
         }
 
-        class Ingredient
+        class Ingredient //this shows the ingredients 
         {
+            //the following 4 lines which are from line 53 - 56 shows helps show the name of the ingredient, quantity of the ingredient, unit of the ingredient and the original quantity of the ingredient befor actually resizing it 
             public string Name { get; set; }
             public double Quantity { get; set; }
             public string Unit { get; set; }
