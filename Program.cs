@@ -4,21 +4,21 @@ namespace POE_PART_1
 {
     class Step //This is the steps of the recipe 
     {
-        public string Description { get; set; }
+        public string Description { get; set; } //this is where i will be describing my steps of the recipe 
     }
 
-    class Recipe
+    class Recipe //This is the recipe 
     {
-        private Ingredient[] ingredients;
-        private Step[] steps;
+        private Ingredient[] ingredients; // this is the array to store the ingredients 
+        private Step[] steps; // this is an array to store the steps that will entered by the user 
 
-        public void CreateRecipe()
+        public void CreateRecipe()// this is a method for the user to be able to creat a recipe 
         {
             Console.Write("Enter the number of ingredients to be used: ");
             int numIngredients = int.Parse(Console.ReadLine());
             ingredients = new Ingredient[numIngredients];
             Console.WriteLine();
-            for (int i = 0; i < numIngredients; i++)
+            for (int i = 0; i < numIngredients; i++) ; 
             {
                 Console.WriteLine($"Enter details for ingredient {i + 1}:");
                 Console.Write("Name of the ingredient: ");
