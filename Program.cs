@@ -35,7 +35,7 @@ namespace POE_PART_1
 
             Console.Write("Enter the number of steps you need: ");
             int numSteps = int.Parse(Console.ReadLine());
-            steps = new Step[numSteps];
+            steps = new Step[numSteps]; // This actuyally Initializes the steps array i added on line 13
 
             for (int i = 0; i < numSteps; i++)
             {
@@ -44,7 +44,7 @@ namespace POE_PART_1
                 steps[i] = new Step { Description = description };
             }
             Console.WriteLine();
-            Console.WriteLine("Congatulations!! Your recipe has beeb created successfully.");
+            Console.WriteLine("Congatulations!! Your recipe has been created successfully.");// this is the message the user will get after adding ingredients and steps
         }
 
         class Ingredient
