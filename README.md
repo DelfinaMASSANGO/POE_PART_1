@@ -27,5 +27,5 @@ This is a C# program that allows you to create recipes and also manage recipes t
 4.	Reset the Quantities (This option is to reset your quantity size to the initial one you had actually entered in the beginning before scaling it). 
 5.	Clear your Recipe (This option is to clear the recipe if you are no longer in need of it). 
 6.	Exit. (This is to leave the program after using it). 
-These steps will enable you to create a great recipe using the recipe creator program and also it will help you
+These steps will enable you to create a great recipe using the recipe creator program and also it will help you scale it to your liking too.
 END!
