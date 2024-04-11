@@ -2,7 +2,7 @@
 
 namespace POE_PART_1
 {
-    class Step
+    class Step //This is the steps of the recipe 
     {
         public string Description { get; set; }
     }
