@@ -56,9 +56,9 @@ namespace POE_PART_1
             public double OriginalQuantity { get; set; }
         }
 
-        public void DisplayRecipe()
+        public void DisplayRecipe()// this method will be showing the recipe that has been created
         {
-            if (ingredients == null || steps == null)
+            if (ingredients == null || steps == null)// this ensures that if the user doesnt enter anything or enteres a int while suppose to enter a string the program wont crush 
             {
                 Console.WriteLine("Dear user you have not created a recipe yet.");
                 return;
