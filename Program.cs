@@ -123,10 +123,10 @@ namespace POE_PART_1
     {
         static void Main(string[] args)
         {
-            Recipe recipe = new Recipe();
+            Recipe recipe = new Recipe(); 
             Console.WriteLine("<=============WELCOME TO DELFINA'S RECIPE CREATOR=============>");
             Console.WriteLine("----------------Making The Kitchen Life Easier-----------------");
-            while (true)
+            while (true)//this while loop is used for the main menu untill the user inputs optioon 6 to exit the progam 
             {
                 Console.WriteLine("\n1. Create a Recipe");
                 Console.WriteLine("2. Show the Recipe");
@@ -160,7 +160,7 @@ namespace POE_PART_1
                             recipe.ClearRecipe();
                             break;
                         case 6:
-                            Environment.Exit(0);
+                            Environment.Exit(0);// this is a option to leav the progam 
                             break;
                         default:
                             Console.WriteLine("Oops! Invalid option. Please try again.");
